@@ -1,4 +1,4 @@
-# Scientific Calculator with Rust + WebAssembly
+# RustyMath - Scientific Calculator with Rust + WebAssembly
 
 A modern scientific calculator built with Rust, WebAssembly, and Yew. Features a clean dark theme interface and MathLive integration for mathematical input.
 
@@ -14,7 +14,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/sarvagyad37/rustymath-calculator.git
 cd rust-calc-wasm
 ```
 
@@ -37,7 +37,7 @@ http://127.0.0.1:8080
 
 ### Project Structure
 ```
-rust-calc-wasm/
+rustymath-calculator/
 ├── src/
 │   ├── components/     # Yew components
 │   │   ├── mod.rs
