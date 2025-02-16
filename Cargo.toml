@@ -1,0 +1,25 @@
+[package]
+name = "rust-calc-wasm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = { version = "0.21", features = ["csr"] }
+web-sys = { version = "0.3", features = [
+    "HtmlInputElement",
+    "Element",
+    "Window",
+    "Document",
+    "CustomEvent",
+    "CustomEventInit"
+] }
+wasm-bindgen = { version = "0.2", features = ["serde-serialize"] }
+log = "0.4"
+console_log = "1.0"
+wasm-logger = "0.2"
+gloo = "0.10"
+js-sys = "0.3"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>RustyMath Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              dark: {
+                'bg': '#1a1b1e',
+                'surface': '#25262b',
+                'accent': '#3b82f6',
+                'text': '#e4e5e7'
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="https://unpkg.com/mathlive/dist/mathlive.css" />
+    <script src="https://unpkg.com/mathlive/dist/mathlive.min.js"></script>
+    <style>
+      body { background-color: #1a1b1e; }
+      math-field {
+        --contains-highlight-background-color: #3b82f680;
+        --primary-color: #3b82f6;
+        --text-color: #e4e5e7;
+      }
+    </style>
+  </head>
+  <body class="bg-dark-bg"></body>
+</html> 
