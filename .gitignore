@@ -3,3 +3,4 @@ CONTEXT.md
 /target/
 /dist/
 /vscode/
+.DS_Store
