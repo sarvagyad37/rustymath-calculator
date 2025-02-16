@@ -4,3 +4,4 @@ CONTEXT.md
 /dist/
 /vscode/
 .DS_Store
+Cargo.lock
