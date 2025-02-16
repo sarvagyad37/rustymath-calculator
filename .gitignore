@@ -1,7 +1,7 @@
 
 CONTEXT.md
 /target/
-/dist/
+# /dist/
 /vscode/
 .DS_Store
 Cargo.lock
