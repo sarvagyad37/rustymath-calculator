@@ -50,10 +50,8 @@ rustymath-calculator/
 ```
 
 ### Key Features
-- Modern dark theme interface
 - MathLive integration for mathematical input
 - LaTeX display for mathematical expressions
-- Keyboard support (Enter key for calculation)
 
 ### Technologies Used
 - Rust
